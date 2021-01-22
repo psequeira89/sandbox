@@ -20,7 +20,7 @@ let name = "Phil";
         >
           Learn React
         </a>
-        <button type="button" onClick="alert('Hi')">Hello</button>
+        <a href="https://www.w3schools.com/react/default.asp" target="_blank" className="App-link"><button type="button">Hello</button></a>
       </header>
     </div>
   );
