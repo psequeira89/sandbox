@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+let name = "Phil";
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <button type="button" onClick="alert('Hi')">Hello</button>
       </header>
     </div>
   );
